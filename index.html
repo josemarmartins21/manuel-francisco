@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuel  Francisco</title>
+    <link rel="stylesheet" href="assets/src/output.css">
+    <link rel="stylesheet" href="assets/src/input.css">
+    
+    <!-- Fonte Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="h-screen bg-body " onload="atualizarAno()">
+    <main class="pb-20" id="home">
+        <section class="h-screen bg-center" style="background-image: url(assets/images/fundos/fundo-13.jpg);">
+        <header class="flex sm:justify-between gap-2.5 sm:gap-5 p-6 items-center sm:flex-row flex-col">
+            <div>
+                <a href="#home" class="color-links font-bold text-2xl font-title text-shadow-2xs text-shadow-black text-destaque"><h1>Manuel  Francisco</h1></a>
+            </div>
+    
+            <nav class="hidden sm:block">
+                <ul class="lista">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre" >Sobre</a></li>
+                    <li><a href="#skills">Minhas Skills</a></li>
+                    <li><a href="#qualificacoes">Qualificações</a></li>
+                    <li><a href="#projectos">Projectos</a></li>
+                </ul>
+            </nav>
+    
+            <div>
+                <!-- https://wa.me/244940121011?text=Estou%20interessado%20nos%20seus%20servi%C3%A7os -->
+                <a href="#" class="transition bg-destaque rounded-2xl w-40 py-2 sm:hover:bg-links text-center inline-block text-white font-bold border-2 transform active:scale-75">Whatsapp</a>
+            </div>
+        </header>
+            <div class="h-3/5 flex items-center justify-center flex-col">
+                <div>
+                    <img src="assets/images/manuel.jpeg" alt="Manuel Francisco" class="w-60 rounded-full" class="aspect-square">
+                </div>
+                <div class="p-4 text-center hidden">
+                    <h2 class="text-destaque font-bold sm:text-3xl text-3xl text-shadow-black text-shadow-2xs">Manuel Francisco</h2>
+                    <p class="text-xl text-shadow-black text-shadow-2xs">Economista</p>
+                </div>
+            </div>
+        </section><!-- Fim do hero -->
+
+        <section class="mb-15 p-5 bg-cards" id="sobre">
+            <div class="flex md:w-250 w-full m-auto sm:flex-row flex-col sm:justify-center  gap-2.5 items-center sm:gap-2.5">
+                <div class="basis-md hidden sm:inline-flex">
+                    <img src="assets/images/manuel.jpeg" alt="Josimar Martins" class="w-60 rounded-lg">
+                </div>
+                <div class="basis-full sm:grow"> 
+                    <h2 class="text-4xl font-bold mb-2.5 text-destaque">Sobre mim</h2>
+                    <div class="h-1.5 bg-orange-600 w-15"></div>
+                    <p class="sobre-paragrafo">
+                       Manuel  Francisco (29 anos de idade), residente em Luanda (Rotunda do camama), com experiência sólida na recepção e atendimento ao público, adquirida ao longo dos últimos anos em instituições de saúde como a Clínica ROSINID e a Clínica NEOCLINIC.
+                    </p>
+                    <!-- my-2.5 text-zinc-400 leading-7.5 -->
+                    <p class="sobre-paragrafo">
+                       Considero-me um profissional pontual, responsável, simpático e dinâmico, com grande facilidade de adaptação a novos ambientes e foco no atendimento humanizado e eficiente. Tenho plena disponibilidade para colaborar com a equipa e contribuir positivamente para os objetivos da empresa.
+                    </p>
+                    <p class="sobre-paragrafo">
+                       Desde já, agradeço a oportunidade e coloco-me à disposição para uma entrevista, onde poderei apresentar-me melhor e mostrar de que forma posso agregar valor à vossa instituição.
+                    </p>
+                    <div class="border border-destaque sm:h-44 sm:p-0 p-2.5 sm:text-[16px] flex sm:justify-around flex-col sm:flex-row  sm:items-center text-[14px] ">
+                        <ul class="info-container">
+                            <li><strong class="atributo">Nome: </strong>Manuel Francisco</li>
+                            <li><strong class="atributo">Idade: </strong>29</li>
+                            <li><strong class="atributo">Experiência:</strong> 6 mêses</li>
+                            <li><strong class="atributo">Tel:</strong> 938 589 842 | 951 359 515 </li>
+                        </ul>
+                        <ul class="info-container">
+                            <li><strong class="atributo">Email: </strong> <a href="#" rel="external" target="_blank" class="text-destaque hover:underline">manuelnadix@gmail.com</a></li>
+                            <li><strong class="atributo inline">Endereço:</strong> <address class="inline">Luanda (Rotunda do camama)</address></li>
+                            <li><strong class="atributo">Trabalhar / Prestar Serviço:</strong> <span  class="text-green-600">Disponível</span></li>
+                        </ul>
+                    </div>
+                    <a href="assets/pdf/cv/curriculo.pdf" class="w-40 py-2 bg-destaque transform active:scale-75 text-center inline-block mt-2 transition duration-300 text-white font-bold rounded-xl" download="curriculo-josimar.pdf">Baixar CV</a>
+                </div>
+            </div>
+        </section> <!-- Fim do sobre mim -->
+        <section class="conteiner pb-25" id="skills">
+            <h2 class="titulo-secao">Minhas Skills</h2>
+            <div class="barra"></div>
+
+            <div class="flex flex-col-reverse sm:flex-row sm:w-7/8 lg:items-start  sm:flex-wrap  sm:m-auto gap-5 sm:gap-x-10 sm:items-stretch items-center py-7.5">
+                <div class="card-skill">
+                    <div class="icone">
+                        <a href="#" target="_blank"><i class="fa-brands fa-github icone"></i></a>
+                    </div>
+                    <div class="info">
+                        <h3 class="title-skill">Habilidade</a></h3>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi atque error id necessitatibus cumque eligendi obcaecati culpa dolorum. Veritatis, ab.
+                        </p>
+                        <span class="rate-skill">50%</span>
+                        <div class="porcentagem w-2/4"></div> 
+                    </div>
+                </div>
+                <div class="card-skill">
+                    <div class="icone">
+                        <a href="#" target="_blank"><i class="fa-brands fa-html5 icone"></i></a>
+                    </div>
+                    <div class="info">
+                        <h3 class="title-skill"><abbr title="HyperText Markup Language">Habilidade</abbr></h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur repellendus tempora unde veniam maiores iusto.
+                        </p>
+                          <span class="rate-skill">90%</span>
+                        <div class="porcentagem w-4/5"></div> 
+                    </div>
+                </div>
+                <div class="card-skill">
+                    <div class="icone">
+                        <a href="#" target="_blank"><i class="fa-brands fa-php icone"></i></a>
+                    </div>
+                    <div class="info">
+                        <h3 class="title-skill"><abbr title="PHP Hypertext Preprocessor">Habilidade</abbr></h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat consequuntur eligendi aspernatur facere eaque voluptatum.
+                        </p>
+                          <span class="rate-skill">80%</span>
+                        <div class="porcentagem w-4/5"></div> 
+                    </div>
+                </div>
+                <div class="card-skill">
+                    <div class="icone">
+                        <a href="#" target="_blank"><i class="fa-solid fa-database"></i></a>
+                    </div>
+                    <div class="info">
+                        <h3 class="title-skill"><abbr title="Structured Query Language">Habilidade</abbr></h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati atque nulla sapiente qui enim quas.
+                        </p>
+                          <span class="rate-skill">80%</span>
+                        <div class="porcentagem w-4/5"></div> 
+                    </div>
+                </div>
+                <div class="card-skill">
+                    <div class="icone">
+                        <a href="#" target="_blank"><i class="fa-brands fa-css3-alt"></i></a>
+                    </div>
+                    <div class="info">
+                        <h3 class="title-skill"><abbr title="Cascading Style Sheets">Habilidade</abbr></h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur repellat voluptate distinctio quaerat cumque sequi!
+                        </p>
+                          <span class="rate-skill">60%</span>
+                        <div class="porcentagem w-3/5"></div> 
+                    </div>
+                </div>
+                <div class="card-skill">
+                    <div class="icone">
+                        <a href="#" target="_blank"><i class="fa-brands fa-laravel"></i></a>
+                    </div>
+                    <div class="info">
+                        <h3 class="title-skill">Habilidade</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vel beatae at dolorem quod id?
+                        </p>
+                          <span class="rate-skill">50%</span>
+                        <div class="porcentagem w-2/4"></div> 
+                    </div>
+                </div>
+            </div>
+        </section> <!-- Depois da secção minhas skills -->
+        <section class="conteiner mb-15  pb-10" id="qualificacoes">
+            <h2 class="titulo-secao text-center">Qualificações</h2>
+
+            <div class="barra m-auto mb-2.5"></div>
+            <div class="flex  gap-5 mt-10 mb-10  flex-col sm:flex-row items-center sm:items-start text-center sm:text-left sm:justify-between">
+                <div class="formacao-container bg-slate-800">
+                    <h3 class="title-skill">Informática</h3>
+                    <div class="formacao-card">
+                        <h4 class="text-cyan-700">Informática na ótica do utilizador</h4>
+                        <span><a href="#" class="text-destaque sm:hover:underline font-bold" target="_blank">Centro de formação </a>2022 - Presente</span>
+
+                        <details>
+                            <summary class="sumario">Detalhes</summary>
+                            <p class="leading-6">
+                               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis at autem minus optio earum sequi quo obcaecati aliquid cum. Vel a animi non fuga ullam exercitationem omnis doloremque labore laboriosam!
+                            </p>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800 sm:p-5 experiencia-container">
+                    <h3 class="title-skill">Marketing</h3>
+
+                    <div>
+                        <div class="experiencia-card">
+                            <h4 class="text-cyan-700">Marketing Digital</h4>
+                            <span><a href="#" class="text-destaque sm:hover:underline font-bold" target="_blank">Centro de formação</a> 2023 - Presente</span>
+
+                            <details>
+                                <summary class="sumario">Detalhes</summary>
+                                <p>
+                                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga tempora excepturi minima nulla saepe officiis ab facere sed reprehenderit similique, animi, quidem maiores perferendis dolor explicabo autem? Tempora, tempore tenetur!
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                </div> 
+                <div class="bg-slate-800 sm:p-5 experiencia-container">
+                    <h3 class="title-skill">Marketing</h3>
+
+                    <div>
+                        <div class="experiencia-card">
+                            <h4 class="text-cyan-700">Comunicação</h4>
+                            <span><a href="#" class="text-destaque sm:hover:underline font-bold" target="_blank">Oratória</a> 2023 - Presente</span>
+
+                            <details>
+                                <summary class="sumario">Detalhes</summary>
+                                <p>
+                                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga tempora excepturi minima nulla saepe officiis ab facere sed reprehenderit similique, animi, quidem maiores perferendis dolor explicabo autem? Tempora, tempore tenetur!
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                </div> 
+            </div><!-- Fim do container experiencia -->
+
+            <h2 class="titulo-secao text-center">Experiência</h2>
+            <div class="barra m-auto mb-2.5"></div>
+
+            <div class="flex  gap-5 mt-10  flex-col sm:flex-row items-center sm:items-start text-center sm:text-left sm:justify-between">
+                <div class="formacao-container bg-slate-800">
+                    <h3 class="title-skill">Formação</h3>
+                    <div class="formacao-card">
+                        <h4 class="text-cyan-700">Economia e Gestão</h4>
+                        <span><a href="#" class="text-destaque sm:hover:underline font-bold" target="_blank">Universidade Jean Piaget </a>2022 - Presente</span>
+
+                        <details>
+                            <summary class="sumario">Detalhes</summary>
+                            <p class="leading-6">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis quia culpa omnis magni aliquam totam tempore quis? Tempore autem obcaecati maiores? Beatae cumque a provident voluptatibus quaerat. Modi, veniam?
+                            </p>
+                        </details>
+                    </div>
+                </div> <!-- Fim do container formação -->
+
+                <div class="bg-slate-800 sm:p-5 experiencia-container">
+                    <h3 class="title-skill">Experiência</h3>
+
+                    <div>
+                        <div class="experiencia-card">
+                            <h4 class="text-cyan-700">Suporte ao cliente</h4>
+                            <span><a href="#" class="text-destaque sm:hover:underline font-bold" target="_blank">Clínica ROSINID</a> 2023 - Presente</span>
+
+                            <details>
+                                <summary class="sumario">Detalhes</summary>
+                                <p>
+                                   lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga tempora excepturi minima nulla saepe officiis ab facere sed reprehenderit similique, animi, quidem maiores perferendis dolor explicabo autem? Tempora, tempore tenetur!
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                </div> 
+                
+                <!-- Fim do container experiencia -->
+            </div>
+        </section> <!-- Fim da secção formações -->
+        <section class="conteiner" id="projectos">
+            <h2 class="titulo-secao">Meus projectos</h2>
+            <div class="barra"></div>
+            <div class="">
+                <div class="flex py-5 sm:items-start gap-5 items-center  flex-col sm:flex-row">
+                    <div class="card-projecto">
+                        <div>
+                            <img src="assets/images/projects/portfolio.png" alt="Projecto portfolio" class="aspect-video">
+                        </div>
+                        <div class="p-2.5">
+                            <h3 class="title-project"><a href="#" class="link-project">Projecto Portfólio</a></h3>
+                            <details>
+                                <summary class="sumario">Descrição</summary>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quae hic enim esse odio veniam.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="card-projecto">
+                        <div>
+                            <img src="assets/images/projects/viaja-mais.png" alt="Projecto viajamais" class="aspect-video">
+                        </div>
+                        <div class="p-2.5">
+                            <h3 class="title-project"><a href="#" class="link-project" target="_blank">ViajaMais</a></h3>
+                            <details>
+                                <summary class="sumario">Descrição</summary>
+                                <p>
+                                    Site de destinos de viagens, criei com o intuito de testar aplicar os conceitos de responsividade e animações com CSS puro.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="card-projecto">
+                        <div>
+                            <img src="assets/images/projects/stockflow.png" alt="Projecto de gestão de estoque" class="aspect-video">
+                        </div>
+                        <div class="p-2.5">
+                            <h3 class="title-project"><a href="#" class="link-project" target="_blank">StockFlow</a></h3>
+                            <details>
+                                <summary class="sumario">Descrição</summary>
+                                <p>
+                                    Projecto de gestão de estoque de um bar voltado para venda de bebidas alcoólicas, refrigerantes, canabis entre outros.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- Fim da secção Projectos -->
+    </main>
+    <footer class="bg-black text-white py-5">
+        <a href="#" target="_blank">
+            <h1 class="text-center font-title pt-2.5 text-5xl leading-15">Manuel  Francisco</h1>
+        </a>
+
+        <p class="text-center pt-5 pb-2.5">
+            &copy; <span id="ano"></span> <a href="#" target="_blank" class="sm:hover:underline">Manuel  Francisco</a>. Todos os direitos reservados.
+        </p>
+
+        <div>
+            <ul class="lista text-3xl">
+                <li class=""><a href="#" target="_blank" rel="noopener noreferrer" class="hover:text-destaque"><i class="fa-brands fa-square-linkedin"></i></a></li>
+                <!-- https://wa.me/244940121011?text=Estou%20interessado%20nos%20seus%20servi%C3%A7os -->
+                <li class=""><a href="#" target="_blank" rel="noopener noreferrer" class="hover:text-destaque">
+
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                </a></li>
+
+                <li class=""><a href="#" target="_blank" rel="noopener noreferrer" class="hover:text-destaque"><i class="fa-brands fa-square-instagram"></i></a></li>
+
+                <li class=""><a href="#" target="_blank" rel="noopener noreferrer" class="hover:text-destaque">
+                    <i class="fa-brands fa-github"></i>
+                </a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="assets/src/js/script.js"></script>
+</body>
+</html>

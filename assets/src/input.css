@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@layer {
+    .lista {
+        @apply flex gap-4 justify-center; 
+    }
+
+    .barra {
+        @apply h-1.5 bg-destaque w-15 m-auto sm:m-0;
+    }
+    .sobre-paragrafo {
+        @apply my-2.5  leading-7.5;
+    }
+
+    .atributo {
+        @apply text-destaque;
+    }
+
+    .card-projecto {
+        @apply sm:basis-[320px] w-7/8 bg-cards text-destaque border-destaque border-2
+    }
+
+    .title-project {
+        @apply text-2xl  font-semibold mb-2.5;
+    }
+
+    .link-project {
+        @apply  hover:underline;
+    }
+
+    .conteiner {
+        @apply sm:w-250 m-auto;
+    }
+
+    .titulo-secao {
+        @apply text-3xl text-destaque font-semibold mb-2.5 text-center sm:text-left;
+    }
+
+    .card-skill {
+        @apply bg-cards flex flex-col justify-between sm:basis-3/10 w-4/5 sm:h-62.5  p-5 h-75 text-center;
+    }
+
+    .title-skill {
+        @apply  font-semibold my-1.5 text-2xl text-destaque;
+    }
+    .icone {
+        @apply text-5xl text-destaque;
+    }
+
+    .qualificacoes {
+        @apply flex border-2 border-orange-600 p-5 gap-5 mb-5;
+    }
+
+    .formacao-container, .experiencia-container {
+        @apply bg-cards sm:p-5 w-4/5 p-2.5 sm:basis-[320px] sm:text-center  max-h-full min-h-40 rounded-3xl;
+    }
+
+    .info-container {
+        @apply leading-7.5;
+    }
+
+    .link {
+        @apply text-destaque lg:hover:underline font-bold;
+    }
+
+    .rate-skill {
+        @apply block w-full text-right;
+    }
+
+    .porcentagem {
+        @apply h-1 bg-destaque;
+    }
+
+    .sumario {
+        @apply: sm:hover:cursor-pointer;
+    }
+}
+
+@theme {
+    --font-title: 'Boldonse', sans-serif;
+    --color-body: #E8EBEE;
+    --color-cards: #D4DBE1;
+    --color-destaque: #559CC4;
+
+    /*
+        cor destaque-hovers-icones- #559CC4
+
+        cor-fundo: #D4DBE1
+
+        cor-cards-bg-secundary-separadores #E8EBEE
+    
+    
+
+        ___________
+        Body → #E8EBEE
+
+        Cards / sections → #D4DBE1
+
+        Botões / links / detalhes → #559CC4
+    */
+}
